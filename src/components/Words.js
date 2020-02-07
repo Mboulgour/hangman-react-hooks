@@ -1,7 +1,11 @@
 const wordsArr = [
-  "sisi",
-  "la",
-  "famille"
+  "dog",
+  "cat",
+  "elephant",
+  "shark",
+  "giraffe",
+  "rhino",
+  "lion",
 ]
 
 export const randomWord = () => {
