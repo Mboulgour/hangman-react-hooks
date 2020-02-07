@@ -63,7 +63,7 @@ const Hangman = function(props){
     <div>
       <Title>Hangman</Title>
       <p>Wrong guesses : {errorCount} / {maxError}</p>
-      <Subtitle>Guess the word :</Subtitle>
+      <Subtitle>Guess the planet :</Subtitle>
       <p>{gameOver ? `The word to guess was : ${wordToGuess}` : wordToGuessStatus()}</p>
       <FlexBox direction="row" justify="center" align="center">
         {<KeyboardContainer>
